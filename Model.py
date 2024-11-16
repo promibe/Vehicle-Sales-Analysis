@@ -13,7 +13,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder, FunctionTransformer
 
 import joblib
-import picklei
+import pickle
 
 # Load the pipeline
 linear_model = joblib.load('vehicle_sales_model.pkl')
